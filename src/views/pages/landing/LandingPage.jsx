@@ -7,7 +7,7 @@ import TeamMembersSection from '../../layouts/team/Team'
 
 const LandingPage = () => {
   return (
-    <><HeroSection/><AboutSection/><Services/><VisionMissionSection/><TeamMembersSection/></>
+    <div className='landing-page-container'><HeroSection/><AboutSection/><Services/><VisionMissionSection/><TeamMembersSection/></div>
   )
 }
 
